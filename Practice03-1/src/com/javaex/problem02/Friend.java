@@ -6,6 +6,11 @@ public class Friend {
     private String hp;
     private String school;
 
+    public Friend(String name, String hp, String school) {
+    	this.name = name;
+    	this.hp = hp;
+    	this.school = school;
+    }
     
     //필요한 메소드 작성
     public String getName() {
